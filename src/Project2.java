@@ -278,7 +278,7 @@ public class Project2 {
 					isWinner = true;
 				}
 				else{
-					if(!isAI[1]&&!isAI[0]){
+					if(isAI[1]&&!isAI[0]){
 						blackPeg = actualCode.pegs(guessCode)/10;
 						whitePeg = actualCode.pegs(guessCode)%10;
 					}
